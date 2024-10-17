@@ -1,0 +1,39 @@
+
+
+.navbar-custom {
+    background-color: #FFD60A;
+    padding: 1rem 1.5rem; 
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: #ffffff; 
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    margin-right: 15px; 
+    font-weight: 500; 
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00; 
+    transition: color 0.3s ease; 
+  }
+  
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); 
+  }
+  
+  .navbar-toggler-icon {
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
+  
+  @media (max-width: 768px) {
+    .nav-link {
+      margin-right: 0; 
+      margin-bottom: 10px; 
+    }
+  }
+  

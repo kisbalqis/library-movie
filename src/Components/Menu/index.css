@@ -1,0 +1,16 @@
+
+.vertical-menu {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 5px;
+    height: 100vh; 
+  }
+  
+  .menu-item {
+    margin-bottom: 10px;
+  }
+  
+  .menu-item:hover {
+    background-color: #e2e6ea; 
+  }
+  

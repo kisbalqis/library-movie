@@ -1,0 +1,101 @@
+.carousel {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.carousel img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    padding: 15px;
+    max-width: 60%;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+    text-align: left;
+}
+
+.rating-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(255, 215, 0, 0.8);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+@media (max-width: 1024px) {
+    .carousel {
+        height: 80vh;
+    }
+
+    .carousel-caption {
+        max-width: 70%;
+    }
+
+    .rating-badge {
+        padding: 4px 8px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 60vh;
+    }
+
+    .carousel img {
+        object-fit: contain;
+    }
+
+    .carousel-caption {
+        font-size: 0.9rem;
+        max-width: 80%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
+    .rating-badge {
+        padding: 3px 6px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel {
+        height: 50vh;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.75rem;
+    }
+
+    .rating-badge {
+        font-size: 0.7rem;
+    }
+}
